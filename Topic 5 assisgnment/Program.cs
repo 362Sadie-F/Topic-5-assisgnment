@@ -44,13 +44,18 @@
             {
                 Console.WriteLine("Your weight on Neptune is: " + weight * 1.23 + " pounds");
             }
-            
-
-
+            else if (planet > 6)
+            {
+                Console.WriteLine("Invalid planet. Please retry.");
+            }
+            else if (planet < 1)
+            {
+                Console.WriteLine("Invalid planet. Please retry.");
+            }
 
             //task 2
 
-           // Console.WriteLine();
+            Console.WriteLine();
         }
     }
 }
