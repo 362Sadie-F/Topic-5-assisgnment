@@ -48,20 +48,25 @@
             {
                 Console.WriteLine("Your weight on Neptune is: " + weight * 1.23 + " pounds");
             }
-            else if (planet > 6)
+            else 
             {
                 Console.WriteLine("Invalid planet. Please retry.");
             }
-            else if (planet < 1)
-            {
-                Console.WriteLine("Invalid planet. Please retry.");
-            }
+            
 
             //task 2
             Console.WriteLine("Please enter 2 numbers and an operator (+, -, /, *).");
+            Console.Write("Enter first number: "); 
             num1 = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter your operator: ");
             mathOperator1 = Console.ReadLine();
+            Console.Write("Enter the second number: ");
             num2 = Convert.ToDouble(Console.ReadLine());
+
+            if (mathOperator1 = -)
+            {
+
+            }
 
             Console.WriteLine(num1 + mathOperator1 + num2 + "= " + answer);
 
