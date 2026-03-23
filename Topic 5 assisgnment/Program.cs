@@ -7,7 +7,11 @@
 
             //task 1
             int planet;
+            string mathOperator1;
             double weight;
+            double num1;
+            double num2;
+            double answer;
 
             Console.Write("Enter your current weight: ");
             weight = Convert.ToDouble(Console.ReadLine());
@@ -54,6 +58,12 @@
             }
 
             //task 2
+            Console.WriteLine("Please enter 2 numbers and an operator (+, -, /, *).");
+            num1 = Convert.ToDouble(Console.ReadLine());
+            mathOperator1 = Console.ReadLine();
+            num2 = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine(num1 + mathOperator1 + num2 + "= " + answer);
 
             Console.WriteLine();
         }
